@@ -1,0 +1,86 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: md5WithRSAEncryption
+        Issuer: C=US, ST=Maryland, L=Columbia, O=CSC, OU=42Six, CN=EzBakeCA
+        Validity
+            Not Before: Nov 21 18:40:07 2014 GMT
+            Not After : Nov 18 18:40:07 2024 GMT
+        Subject: C=US, ST=Maryland, L=Columbia, O=CSC, OU=42Six, CN=_Ez_TestClient
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c2:db:29:77:7d:20:6a:1d:e8:4f:8b:c1:93:0e:
+                    78:bb:f9:57:34:46:b9:30:95:fe:31:b4:ee:6b:b3:
+                    49:c6:7a:5e:fe:52:c1:c0:c4:3f:c7:c1:30:a1:b4:
+                    93:88:c3:55:08:fd:24:b1:c2:32:82:3e:4c:7b:79:
+                    7a:da:cb:3d:56:38:34:ae:d9:38:ba:56:00:3e:47:
+                    2e:66:f5:16:32:35:e3:46:09:a6:81:3f:13:58:b2:
+                    3c:ab:22:75:28:e6:fd:d4:b0:22:b2:fd:a0:51:b1:
+                    31:62:5e:21:91:a3:ca:1b:d9:7d:cb:c0:d5:b3:44:
+                    42:7c:27:c8:a6:5f:60:61:d9:c4:3b:b8:12:4b:c1:
+                    6f:7f:0f:bf:50:56:45:f7:24:a7:d4:3c:e4:24:05:
+                    4d:04:59:5c:3d:85:0f:6d:a2:6f:ae:a7:f2:bd:2b:
+                    6a:e0:67:52:92:b9:1d:c2:a5:c3:3f:3f:3e:ff:92:
+                    3f:5d:9f:22:55:19:3a:c8:fb:5f:a4:af:5c:1d:a5:
+                    2d:81:db:89:62:bb:56:ca:c7:8d:1b:0d:af:9c:88:
+                    c8:34:54:9a:cb:61:78:38:91:dd:86:c9:44:1e:c3:
+                    a9:e3:a3:7c:05:4b:03:d6:d5:97:3a:29:07:e1:5f:
+                    ae:ad:8d:b4:4c:81:aa:97:af:d5:03:04:b1:66:38:
+                    6a:e1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                2D:23:B1:EC:84:0B:B8:D8:84:8D:64:94:AC:99:0D:D0:C8:7D:B1:69
+            X509v3 Authority Key Identifier: 
+                keyid:62:42:10:2C:89:98:F4:35:57:52:C6:BF:C5:5C:DF:60:00:C3:67:C2
+                DirName:/C=US/ST=Maryland/L=Columbia/O=CSC/OU=42Six/CN=EzBakeCA
+                serial:AF:78:0E:18:1F:6D:9D:7D
+
+    Signature Algorithm: md5WithRSAEncryption
+         84:a1:c7:aa:cf:e0:fe:f5:64:88:f8:98:6e:b9:f3:e5:27:ea:
+         01:7a:ee:9a:5c:40:b9:12:ce:1d:5a:74:4f:79:fa:6a:e6:b2:
+         41:c6:05:a4:a0:4e:ba:3d:f6:7e:06:9e:02:03:e7:28:de:05:
+         fb:b4:34:ea:c8:3b:93:9a:fe:14:8c:04:97:f8:2c:69:c2:9e:
+         73:5c:30:56:8a:75:aa:bd:bd:03:3e:5b:7a:71:95:85:ce:be:
+         24:4b:4f:bb:da:ee:d4:81:fd:27:44:89:a3:d1:e3:b1:cd:73:
+         f4:0d:bd:a3:99:8e:fa:97:0e:6f:2b:e2:e4:49:16:35:79:10:
+         f0:12:2e:f4:97:e9:0d:d7:64:29:57:cb:71:92:3d:03:74:a9:
+         97:a1:4e:16:4a:48:c6:3f:cc:57:75:21:a1:2e:13:46:0b:ff:
+         94:c6:aa:17:9f:7a:8d:e5:0c:49:1c:14:9a:c1:9e:e8:c5:bb:
+         62:79:02:36:68:d3:a4:4a:b1:00:75:c3:6d:ae:f6:2f:f7:26:
+         1a:4f:84:b7:c2:6c:95:20:e6:b7:1b:00:1b:df:d8:e6:83:c8:
+         b4:ce:fe:06:19:3e:f2:0d:16:80:b5:3b:9e:9a:21:98:d1:3d:
+         34:30:88:f1:e9:60:22:de:43:63:cc:1c:f5:25:f3:59:2b:ba:
+         bb:88:f8:0d
+-----BEGIN CERTIFICATE-----
+MIIEPjCCAyagAwIBAgIBATANBgkqhkiG9w0BAQQFADBkMQswCQYDVQQGEwJVUzER
+MA8GA1UECBMITWFyeWxhbmQxETAPBgNVBAcTCENvbHVtYmlhMQwwCgYDVQQKEwND
+U0MxDjAMBgNVBAsTBTQyU2l4MREwDwYDVQQDEwhFekJha2VDQTAeFw0xNDExMjEx
+ODQwMDdaFw0yNDExMTgxODQwMDdaMGoxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhN
+YXJ5bGFuZDERMA8GA1UEBxMIQ29sdW1iaWExDDAKBgNVBAoTA0NTQzEOMAwGA1UE
+CxMFNDJTaXgxFzAVBgNVBAMUDl9Fel9UZXN0Q2xpZW50MIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAwtspd30gah3oT4vBkw54u/lXNEa5MJX+MbTua7NJ
+xnpe/lLBwMQ/x8EwobSTiMNVCP0kscIygj5Me3l62ss9Vjg0rtk4ulYAPkcuZvUW
+MjXjRgmmgT8TWLI8qyJ1KOb91LAisv2gUbExYl4hkaPKG9l9y8DVs0RCfCfIpl9g
+YdnEO7gSS8Fvfw+/UFZF9ySn1DzkJAVNBFlcPYUPbaJvrqfyvStq4GdSkrkdwqXD
+Pz8+/5I/XZ8iVRk6yPtfpK9cHaUtgduJYrtWyseNGw2vnIjINFSay2F4OJHdhslE
+HsOp46N8BUsD1tWXOikH4V+urY20TIGql6/VAwSxZjhq4QIDAQABo4H0MIHxMAkG
+A1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRp
+ZmljYXRlMB0GA1UdDgQWBBQtI7HshAu42ISNZJSsmQ3QyH2xaTCBlgYDVR0jBIGO
+MIGLgBRiQhAsiZj0NVdSxr/FXN9gAMNnwqFopGYwZDELMAkGA1UEBhMCVVMxETAP
+BgNVBAgTCE1hcnlsYW5kMREwDwYDVQQHEwhDb2x1bWJpYTEMMAoGA1UEChMDQ1ND
+MQ4wDAYDVQQLEwU0MlNpeDERMA8GA1UEAxMIRXpCYWtlQ0GCCQCveA4YH22dfTAN
+BgkqhkiG9w0BAQQFAAOCAQEAhKHHqs/g/vVkiPiYbrnz5SfqAXrumlxAuRLOHVp0
+T3n6auayQcYFpKBOuj32fgaeAgPnKN4F+7Q06sg7k5r+FIwEl/gsacKec1wwVop1
+qr29Az5benGVhc6+JEtPu9ru1IH9J0SJo9Hjsc1z9A29o5mO+pcObyvi5EkWNXkQ
+8BIu9JfpDddkKVfLcZI9A3Spl6FOFkpIxj/MV3UhoS4TRgv/lMaqF596jeUMSRwU
+msGe6MW7YnkCNmjTpEqxAHXDba72L/cmGk+Et8JslSDmtxsAG9/Y5oPItM7+Bhk+
+8g0WgLU7npohmNE9NDCI8elgIt5DY8wc9SXzWSu6u4j4DQ==
+-----END CERTIFICATE-----
