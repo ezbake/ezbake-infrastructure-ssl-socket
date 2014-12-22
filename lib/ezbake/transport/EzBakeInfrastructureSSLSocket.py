@@ -227,14 +227,9 @@ class EzSSLServerSocket(EzSSLSocketBase, TSocket.TServerSocket):
                                      ca_certs=self.ca_certs,
                                      do_handshake_on_connect=True,
                                      ciphers=EzSSLSocketBase.SSL_CIPHERS)
-        except (ssl.SSLError) as ssl_exc:
-            # failed handshake/ssl wrap, close socket to client
+        except (ssl.SSLError):
+            # failed ssl handshake. Close socket to client
             plain_client.close()
-            # raise ssl_exc
-            # We can't raise the exception, because it kills most TServer
-            # derived serve() methods.
-            # Instead, return None, and let the TServer instance deal with it
-            # in other exception handling.  (but TSimpleServer dies anyway)
             return None
         result = TSocket.TSocket()
         result.setHandle(client)
